@@ -17,6 +17,12 @@
 
 A fast, offline search engine to find which companies ask specific LeetCode problems. This project queries a pre-built SQLite database (`problems.db`) for instant, local lookups.
 
+## Demo
+
+<p style="text-align: center;">
+  <img src="assets/demo.gif" alt="LeetQuery Demo" width="800"/>
+</p>
+
 ## Features
 
 * **Fast Search:** Queries a pre-built SQLite database for instant results.
@@ -76,6 +82,9 @@ Companies asking for 'Two Sum':
 This repository contains only the necessary files to run the search:
 ```text
 LeetQuery/
+├── assets/
+│   └── demo.gif
+│
 ├── search_app.py   <-- The main search application
 ├── problems.db     <-- The pre-built problem database
 └── README.md
